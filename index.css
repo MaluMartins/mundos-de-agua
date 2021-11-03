@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+
+a.card-title {
+    text-decoration: none!important;
+    color: black!important;
+    font-size: 20px!important;
+    font-weight: 500;
+}
+
+.divisor {
+    height: 5px;
+    width: 30px;
+    background-color: #113CFC;
+    margin-bottom: 5px;
+}
+
+.topics {
+    margin: 2rem;
+}
