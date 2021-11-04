@@ -1,3 +1,7 @@
+.body {
+    margin: 0 5rem 0 5rem;
+}
+
 .embed-responsive {
     max-width: 70%;
 }
