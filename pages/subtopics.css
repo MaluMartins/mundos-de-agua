@@ -1,7 +1,13 @@
-.body {
-    margin: 0 5rem 0 5rem;
+@media only screen and (min-width: 425px) {
+    .body {
+        margin: 0 5rem 0 5rem;
+    }
+    
+    .embed-responsive {
+        max-width: 70%;
+    }
 }
 
-.embed-responsive {
-    max-width: 70%;
+p, a {
+    word-wrap: break-word;
 }
