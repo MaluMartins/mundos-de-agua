@@ -1,11 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
+
 @media only screen and (min-width: 425px) {
     .body {
-        margin: 0 5rem 0 5rem;
+        margin: 2rem 5rem 2rem 5rem;
     }
     
     .embed-responsive {
         max-width: 70%;
     }
+}
+
+@media only screen and (max-width: 425px) {
+    .body {
+        margin: 1rem;
+    }
+}
+
+
+h3, p {
+    font-family: 'Source Serif Pro', serif!important;
+}
+
+h3 {
+    font-weight: 600!important;
+}
+
+.embed-responsive {
+    margin: 1rem 0 1rem 0;
+}
+
+.legenda {
+    color: rgb(65, 65, 65);
+    font-size: 14px;
 }
 
 p, a {
