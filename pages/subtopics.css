@@ -2,11 +2,16 @@
 
 @media only screen and (min-width: 425px) {
     .body {
-        margin: 2rem 5rem 2rem 5rem;
+        margin: 2rem 11rem 2rem 11rem;
     }
     
     .embed-responsive {
         max-width: 70%;
+    }
+    
+    img {
+        width: 50%;
+        margin: .5rem .5rem .5rem 0;
     }
 }
 
