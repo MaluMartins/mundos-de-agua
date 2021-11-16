@@ -14,24 +14,20 @@ p, h1, h2, h4 {
     font-family: 'Source Serif Pro', serif!important;
 }
 
-a, h3 {
+a, h2 {
     font-family: 'Pacifico', serif!important;
-}
-
-h1, h2, h4 {
-    font-weight: 600!important;
 }
 
 .navbar-brand {
     font-family: 'Waterhole', serif!important;
-    font-size: 2rem!important;
+    font-size: 1.8rem!important;
     color: #587fdb!important;
 }
 
 a.card-title {
     text-decoration: none!important;
     color: black!important;
-    font-size: 20px!important;
+    font-size: 1.5rem!important;
     font-weight: 500;
 }
 
@@ -46,15 +42,25 @@ a.card-title {
     margin: 2rem;
 }
 
-@media only screen and (max-width: 425px) {
+.carousel-item {
+    padding: 0!important;
+}
+
+
+@media only screen and (max-width: 768px) {
     .card-img-top {
         width: 100%;
         height: 30vh;
         object-fit: cover;
     }
+
+    .d-block {
+        max-height: 160px; 
+        object-fit: cover;
+    }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 768px) {
     .card-img-top {
         width: 100%;
         height: 60vh;
@@ -62,6 +68,11 @@ a.card-title {
     }
 
     .carousel {
-        margin: 2rem 6rem 0 6rem;
+        margin: 1rem 8rem 2rem 8rem;
+    }
+
+    .d-block {
+        max-height: 540px; 
+        object-fit: cover;
     }
 }
