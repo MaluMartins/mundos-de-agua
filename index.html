@@ -1,174 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundos de Água</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundos de Água</title>
 
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">MUNDOS DE ÁGUA</a>
-    </nav>
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">MUNDOS DE ÁGUA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/carrossel1.jpg" alt="First slide">
-            <div class="caption-mobile d-sm-block d-md-none">
-              <p><i>"A água é o veículo da natureza."</i>
-                <br>
-                Leonardo Da Vinci
-              </p>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <p><i>"A água é o veículo da natureza."</i></p>
-              <p>Leonardo Da Vinci</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/carrossel2.jpg" alt="Second slide">
-            <div class="caption-mobile d-sm-block d-md-none">
-              <p><i>"A água é o princípio de todas as coisas."</i>
-                <br>
-                Tales de Mileto
-              </p>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <p><i>"A água é o princípio de todas as coisas."</i></p>
-              <p>Tales de Mileto</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/carrossel3.jpg" alt="Third slide">
-            <div class="caption-mobile d-sm-block d-md-none">
-              <p><i>"Perto de muita água tudo é feliz.”</i>
-              <br>
-              Guimarães Rosa
-              </p>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <p><i>"Perto de muita água tudo é feliz.”</i></p>
-              <p>Guimarães Rosa</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/carrossel4.jpg" alt="Fourth slide">
-            <div class="caption-mobile d-sm-block d-md-none">
-              <p><i>"É necessário hidratar a cultura, mudando a percepção sobre a água, reduzir a hidroalienação e tornar a sociedade e os indivíduos hidroconscientes."</i>
-              <br>
-              Maurício Andrés, ambientalista
-              </p>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <p><i>"É necessário hidratar a cultura, mudando a percepção sobre a água, reduzir a hidroalienação e tornar a sociedade e os indivíduos hidroconscientes."</i></p>
-              <p>Maurício Andrés, ambientalista</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/carrossel5.jpg" alt="Fifth slide">
-            <div class="caption-mobile d-sm-block d-md-none">
-              <p><i>"O ser humano esqueceu que a água vem da chuva e a comida vem do solo. Passamos a acreditar que a água e nosso alimento são produtos de uma corporação."</i>
-              <br>
-              Vandana Shiva, física e ambientalista
-              </p>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <p><i>"O ser humano esqueceu que a água vem da chuva e a comida vem do solo. Passamos a acreditar que a água e nosso alimento são produtos de uma corporação."</i></p>
-              <p>Vandana Shiva, física e ambientalista</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </div>
     </div>
+  </nav>
 
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./img/carrossel1.jpg" alt="First slide">
+        <div class="caption-mobile d-sm-block d-md-none">
+          <p><i>"A água é o veículo da natureza."</i>
+            <br>
+            Leonardo Da Vinci
+          </p>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <p><i>"A água é o veículo da natureza."</i></p>
+          <p>Leonardo Da Vinci</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/carrossel2.jpg" alt="Second slide">
+        <div class="caption-mobile d-sm-block d-md-none">
+          <p><i>"A água é o princípio de todas as coisas."</i>
+            <br>
+            Tales de Mileto
+          </p>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <p><i>"A água é o princípio de todas as coisas."</i></p>
+          <p>Tales de Mileto</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/carrossel3.jpg" alt="Third slide">
+        <div class="caption-mobile d-sm-block d-md-none">
+          <p><i>"Perto de muita água tudo é feliz.”</i>
+            <br>
+            Guimarães Rosa
+          </p>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <p><i>"Perto de muita água tudo é feliz.”</i></p>
+          <p>Guimarães Rosa</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/carrossel4.jpg" alt="Fourth slide">
+        <div class="caption-mobile d-sm-block d-md-none">
+          <p><i>"É necessário hidratar a cultura, mudando a percepção sobre a água, reduzir a hidroalienação e tornar a
+              sociedade e os indivíduos hidroconscientes."</i>
+            <br>
+            Maurício Andrés, ambientalista
+          </p>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <p><i>"É necessário hidratar a cultura, mudando a percepção sobre a água, reduzir a hidroalienação e tornar a
+              sociedade e os indivíduos hidroconscientes."</i></p>
+          <p>Maurício Andrés, ambientalista</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/carrossel5.jpg" alt="Fifth slide">
+        <div class="caption-mobile d-sm-block d-md-none">
+          <p><i>"O ser humano esqueceu que a água vem da chuva e a comida vem do solo. Passamos a acreditar que a água e
+              nosso alimento são produtos de uma corporação."</i>
+            <br>
+            Vandana Shiva, física e ambientalista
+          </p>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <p><i>"O ser humano esqueceu que a água vem da chuva e a comida vem do solo. Passamos a acreditar que a água e
+              nosso alimento são produtos de uma corporação."</i></p>
+          <p>Vandana Shiva, física e ambientalista</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <br>
+
+
+  <div class="topics">
+    <div class="divisor"></div>
+    <h2>Mundos de água</h2>
     <br>
-
-
-    <div class="topics">
-      <div class="divisor"></div>
-      <h2>Mundos de água</h2>
-      <br>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-riosdememorias.png" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico1-1.html" class="card-title stretched-link">Rios de memórias</a>
-            <p class="card-text">Pessoas mais velhas podem se lembrar de suas relações com um rio, dos mergulhos, da pesca e do saciar a sede. As histórias das vidas se confundem com as águas dos rios.</p>
-          </div>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-riosdememorias.png" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico1-1.html" class="card-title stretched-link">Rios de memórias</a>
+          <p class="card-text">Pessoas mais velhas podem se lembrar de suas relações com um rio, dos mergulhos, da pesca
+            e do saciar a sede. As histórias das vidas se confundem com as águas dos rios.</p>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-aguasemagonia.png" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico1-2.html" class="card-title stretched-link">Águas em agonia</a>
-            <p class="card-text">A poluição das águas do Brasil e do mundo, águas sufocadas por móveis, sacolas e garrafas plásticas, pneus, vidros, panos... muito de tudo que não se quer mais.</p>
-          </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-aguasemagonia.png" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico1-2.html" class="card-title stretched-link">Águas em agonia</a>
+          <p class="card-text">A poluição das águas do Brasil e do mundo, águas sufocadas por móveis, sacolas e garrafas
+            plásticas, pneus, vidros, panos... muito de tudo que não se quer mais.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="topics">
-      <div class="divisor"></div>
-      <h2>Eu faço parte desse espaço</h2>
-      <br>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-aguasquecorrememim.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico2-1.html" class="card-title stretched-link">Águas que correm em mim</a>
-            <p class="card-text">Nós seres humanos não somos separados da natureza, e nada faz do que dependamos mais dela do que a nossa sede por água.</p>
-          </div>
+  <div class="topics">
+    <div class="divisor"></div>
+    <h2>Eu faço parte desse espaço</h2>
+    <br>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-aguasquecorrememim.jpg" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico2-1.html" class="card-title stretched-link">Águas que correm em mim</a>
+          <p class="card-text">Nós seres humanos não somos separados da natureza, e nada faz do que dependamos mais dela
+            do que a nossa sede por água.</p>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-riobarigui.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico2-2.html" class="card-title stretched-link">Aqui passa o Rio Barigui</a>
-            <p class="card-text">O nome “Barigui” é de origem tupi-guarani que significa “pequeno mosquito” ou “rio do fruto espinhoso” em alusão às pinhas das araucárias nativas. Conheça mais sobre esse rio.</p>
-          </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-riobarigui.jpg" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico2-2.html" class="card-title stretched-link">Aqui passa o Rio Barigui</a>
+          <p class="card-text">O nome “Barigui” é de origem tupi-guarani que significa “pequeno mosquito” ou “rio do
+            fruto espinhoso” em alusão às pinhas das araucárias nativas. Conheça mais sobre esse rio.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="topics">
-      <div class="divisor"></div>
-      <h2>Governança das águas</h2>
-      <br>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-gestaodasaguas.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico3-1.html" class="card-title stretched-link">Gestão das águas</a>
-            <p class="card-text">O “fazer coletivo”, que engloba um conjunto de atores e práticas, se materializa em estratégias potenciais, podendo ser um elemento inovador na construção de pactos de governança no futuro das bacias hidrográficas.</p>
-          </div>
+  <div class="topics">
+    <div class="divisor"></div>
+    <h2>Governança das águas</h2>
+    <br>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-gestaodasaguas.jpg" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico3-1.html" class="card-title stretched-link">Gestão das águas</a>
+          <p class="card-text">O “fazer coletivo”, que engloba um conjunto de atores e práticas, se materializa em
+            estratégias potenciais, podendo ser um elemento inovador na construção de pactos de governança no futuro das
+            bacias hidrográficas.</p>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./img/banner-projetoagua.png" alt="Card image cap">
-          <div class="card-body">
-            <a href="./pages/subtopico3-2.html" class="card-title stretched-link">Projeto água</a>
-            <p class="card-text">Projetos de governos e prefeitos voltados a preservação dos recursos hídricos.</p>
-          </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/banner-projetoagua.png" alt="Card image cap">
+        <div class="card-body">
+          <a href="./pages/subtopico3-2.html" class="card-title stretched-link">Projeto água</a>
+          <p class="card-text">Projetos de governos e prefeitos voltados a preservação dos recursos hídricos.</p>
         </div>
       </div>
     </div>
+  </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -14,13 +14,17 @@ p, h1, h2, h4 {
     font-family: 'Source Serif Pro', serif!important;
 }
 
-a, h2 {
+.collapse .card a, .collapse .card hr {
+    width: 100px!important;
+}
+
+a.card-title, h2 {
     font-family: 'Pacifico', serif!important;
 }
 
+
 .navbar-brand {
     font-family: 'Waterhole', serif!important;
-    font-size: 1.8rem!important;
     color: #587fdb!important;
 }
 
@@ -62,9 +66,17 @@ a.card-title {
         max-height: 160px; 
         object-fit: cover;
     }
+
+    .navbar-brand {
+        font-size: 1.3rem!important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 1.8rem!important;
+    }
+
     .card-img-top {
         width: 100%;
         height: 60vh;
