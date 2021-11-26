@@ -14,10 +14,6 @@ p, h1, h2, h4 {
     font-family: 'Source Serif Pro', serif!important;
 }
 
-.collapse .card a, .collapse .card hr {
-    width: 100px!important;
-}
-
 a.card-title, h2 {
     font-family: 'Pacifico', serif!important;
 }
