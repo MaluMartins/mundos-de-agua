@@ -39,6 +39,16 @@ h3 {
     font-size: 14px;
 }
 
+.logos {
+    display: flex;
+}
+
+.logo {
+    width: 29%;
+    height: 29%;
+    margin-right: 1.5rem;
+}
+
 p, a {
     word-wrap: break-word;
 }

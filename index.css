@@ -24,6 +24,11 @@ a.card-title, h2 {
     color: #587fdb!important;
 }
 
+.nav-link {
+    font-family: 'Pacifico', serif!important;
+    color: black!important;
+}
+
 a.card-title {
     text-decoration: none!important;
     color: black!important;
